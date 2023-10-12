@@ -59,7 +59,14 @@
     align-items: center;
     margin: 0 auto;
   }
-
+  .line::before,
+  .line::after {
+    content: " ";
+    background-color: var(--white);
+    opacity: 0.2;
+    width: 70%;
+    height: 1px;
+  }
   .line-image {
     background-image: url("images/pattern-divider-mobile.svg");
     background-repeat: no-repeat;
@@ -85,3 +92,11 @@
   
   }
   
+@media (hover: hover) {
+    .dice-img:hover {
+      box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+      -webkit-box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+      -moz-box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+      transition: all ease-in-out 0.3s;
+    }
+  }

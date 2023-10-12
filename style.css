@@ -1,6 +1,6 @@
 :root {
     --light-cyan: hsl(193, 38%, 86%);
-    --neon-green: hsl(150, 100%, 66%);
+    --neon-green: hsl(27, 100%, 66%);
     --grayish-blue: #313a48;
     --dark-grayish-blue: #202733;
     --white: white;
@@ -68,7 +68,7 @@
     height: 1px;
   }
   .line-image {
-    background-image: url("images/pattern-divider-mobile.svg");
+    background-image: url("image/pattern-divider-mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 10rem;
@@ -80,7 +80,7 @@
     position: absolute;
     cursor: pointer;
     background-color: var(--neon-green);
-    background-image: url("images/icon-dice.svg");
+    background-image: url("image/icon-dice.svg");
     background-position: 50%;
     background-repeat: no-repeat;
     transform: translateY(30%) translateX(-50%);
@@ -94,9 +94,9 @@
   
 @media (hover: hover) {
     .dice-img:hover {
-      box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
-      -webkit-box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
-      -moz-box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+      box-shadow: -1px 1px 88px 12px hsl(27, 69%, 52%);
+      -webkit-box-shadow: -1px 1px 88px 12px hsl(27, 100%, 66%);
+      -moz-box-shadow: -1px 1px 88px 12px rgb(255, 203, 82);
       transition: all ease-in-out 0.3s;
     }
   }

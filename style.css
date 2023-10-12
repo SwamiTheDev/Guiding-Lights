@@ -16,6 +16,7 @@
     align-items: center;
     background-color: var(--dark-grayish-blue);
     font-family: var(--body-font);
+
   }
   .main-container {
     position: relative;
@@ -33,6 +34,7 @@
     padding: 3.2rem 1.5rem;
     text-align: center;
     box-sizing: border-box;
+
   }
   
 .advice-number {
@@ -91,6 +93,20 @@
     transition: all ease-in-out 0.3s;
   
   }
+  .__footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top:120px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.__footerlink{
+      color: hsl(27, 100%, 66%);
+      text-decoration: none;
+      letter-spacing: 2px;
+  }
   
 @media (hover: hover) {
     .dice-img:hover {
@@ -100,3 +116,29 @@
       transition: all ease-in-out 0.3s;
     }
   }
+  @media screen and (max-width: 500px) {
+    .quotes {
+        font-size: 1.2rem;
+        color: var(--light-cyan);
+        /* font-weight: 800; */
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 40px;
+        padding: 0 1rem;
+      }
+       
+      .__footer{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin-top:50px;
+        letter-spacing: 1px;
+        color: white;
+      }
+      .__footerlink{
+        color: hsl(27, 100%, 66%);
+        text-decoration: none;
+        letter-spacing: 2px;
+      }
+  }
+  

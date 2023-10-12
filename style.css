@@ -1,0 +1,13 @@
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: #313a48;
+    --dark-grayish-blue: #202733;
+    --white: white;
+    --body-font: "Manrope", sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }

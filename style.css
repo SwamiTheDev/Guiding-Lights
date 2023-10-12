@@ -42,3 +42,46 @@
     font-size: 14px;
     font-weight: 800;
   }
+
+  
+.quotes {
+    font-size: 1.75rem;
+    color: var(--light-cyan);
+    font-weight: 800;
+    padding: 0 1rem;
+  }
+  .line {
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.6rem;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .line-image {
+    background-image: url("images/pattern-divider-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10rem;
+    height: 2rem;
+  }
+  
+  
+  .dice-img {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--neon-green);
+    background-image: url("images/icon-dice.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    transform: translateY(30%) translateX(-50%);
+    left: 50%;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transition: all ease-in-out 0.3s;
+  
+  }
+  
